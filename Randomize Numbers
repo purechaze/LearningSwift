@@ -1,0 +1,7 @@
+//How to randomize numbers:
+
+diceImageView1.image = diceArray[Int.random(in:0...5)]
+
+// if you randomize Array elements, 
+
+diceImageView1.image = diceArray.randomElement()
